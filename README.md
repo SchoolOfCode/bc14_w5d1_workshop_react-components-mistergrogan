@@ -4,11 +4,11 @@
 
 ##### We'll use our knowledge of React to start building a clone of a Blog UI.
 
-**1.1:**
+**1.1:**✅
 
 👉 This repo has the React app already created within it. You just need to install the Node modules with `npm i` in your terminal. Spend a few minutes looking around the file structure and familiarizing yourself with how the app works.
 
-**1.2:**
+**1.2:**✅
 
 👉 There is already a component tree diagram in the assets folder; [take a look](./assets/Blog-Component-Tree.png) and see the structure of the application. Use this component tree as your guide as you create your app!
 <br/>
@@ -26,16 +26,16 @@ You'll see that the Card component is called within App, but it isn't defined ye
 
 👉 Build a re-useable component:
 
-- Create a new folder inside of the components folder and call it `Card`.
-- Inside the `Card` folder Create a new file called index.js.
-- Inside index.js, create a functional component that returns a JSX element for your card.
-- Add a className `className="card"` to the JSX as there is a className allready applied to it in App.css (you can customize the CSS if you have time!).
+- Create a new folder inside of the components folder and call it `Card`.✅
+- Inside the `Card` folder Create a new file called index.js.✅
+- Inside index.js, create a functional component that returns a JSX element for your card.✅
+- Add a className `className="card"` to the JSX as there is a className already applied to it in App.css (you can customize the CSS if you have time!).✅
 
 👉 Navigate back to [App.js](./src/App.js). This is the root component of our application.
 
-- Import and call the `Card` component inside the app component.
-- Call the Card component multiple times to get multiple cards displaying.
-- Run and save the code and check that the cards are displaying on the screen
+- Import and call the `Card` component inside the app component. ✅
+- Call the Card component multiple times to get multiple cards displaying.✅
+- Run and save the code and check that the cards are displaying on the screen✅
 
 ---
 
@@ -46,11 +46,11 @@ You'll see that the Card component is called within App, but it isn't defined ye
 
 👉 Create a button component and nest it inside of the Card component
 
-- Create a new folder inside of the components folder and call it `Button`.
-- Inside the `Button` folder, create a new file called index.js.
-- inside index.js create a functional component that returns a JSX button with the text `See more` inside.
-- Import and add the Button component to your card component.
-- Add a className `className="Button"` to the button. This time, create a Button.css file inside of your Button folder.
+- Create a new folder inside of the components folder and call it `Button`.✅
+- Inside the `Button` folder, create a new file called index.js.✅
+- inside index.js create a functional component that returns a JSX button with the text `See more` inside.✅
+- Import and add the Button component to your card component.✅
+- Add a className `className="Button"` to the button. This time, create a Button.css file inside of your Button folder.✅
 - Import the Button.css into the index.js Button component
 - when you want to add Styles to a file simply import the css file like so at the top of the file:
   `import "./Card.css";`
